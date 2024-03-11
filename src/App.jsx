@@ -15,7 +15,7 @@ function App() {
       <ScrollToTop/>
       <Header />
       <Routes >
-        <Route path="algoritmika-vkusodel" element={<Main />} />
+        <Route path="/algoritmika-vkusodel/" element={<Main />} />
         <Route path="algoritmika-vkusodel/recipes" element={<RecipesPage />} />
         <Route path="algoritmika-vkusodel/recipes/:link" element={<RecipePage />} />
         <Route path="algoritmika-vkusodel/about" element={<AboutPage />} />
