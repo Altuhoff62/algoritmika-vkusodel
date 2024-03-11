@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/algoritmika-vkusodel/static/css/main.07c8b82c.css",
-    "main.js": "/algoritmika-vkusodel/static/js/main.0dd6e7dc.js",
+    "main.css": "/algoritmika-vkusodel/static/css/main.b59390ce.css",
+    "main.js": "/algoritmika-vkusodel/static/js/main.4f7476cd.js",
     "static/media/orange-fresh.jpeg": "/algoritmika-vkusodel/static/media/orange-fresh.a67c785a4e07b8cbe49d.jpeg",
     "static/media/carbonara.jpg": "/algoritmika-vkusodel/static/media/carbonara.d500ccad47f38f578700.jpg",
     "static/media/curry.jpg": "/algoritmika-vkusodel/static/media/curry.706d2e5a86bd2a8e0ff4.jpg",
@@ -37,11 +37,11 @@
     "static/media/star.svg": "/algoritmika-vkusodel/static/media/star.aa769de543b27ea0c288dbecf4c4aa64.svg",
     "static/media/like.svg": "/algoritmika-vkusodel/static/media/like.1e6c8e71dca6ed6f54fe71c1f803dddc.svg",
     "index.html": "/algoritmika-vkusodel/index.html",
-    "main.07c8b82c.css.map": "/algoritmika-vkusodel/static/css/main.07c8b82c.css.map",
-    "main.0dd6e7dc.js.map": "/algoritmika-vkusodel/static/js/main.0dd6e7dc.js.map"
+    "main.b59390ce.css.map": "/algoritmika-vkusodel/static/css/main.b59390ce.css.map",
+    "main.4f7476cd.js.map": "/algoritmika-vkusodel/static/js/main.4f7476cd.js.map"
   },
   "entrypoints": [
-    "static/css/main.07c8b82c.css",
-    "static/js/main.0dd6e7dc.js"
+    "static/css/main.b59390ce.css",
+    "static/js/main.4f7476cd.js"
   ]
 }
