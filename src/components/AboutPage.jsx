@@ -32,7 +32,7 @@ export default function AboutPage() {
             <h2>Мы в соцсетях</h2>
             <div className="contactsField">
               {contacts.map((contact, index)=>(
-             <Link to={"algoritmika-vkusodel/"+contact.src} key={index} className="contactLink">
+             <Link to={contact.src} key={index} className="contactLink">
               <img width={150} src={contact.logo} alt="" /><br/>
               <p>{contact.name}</p>
              </Link>
