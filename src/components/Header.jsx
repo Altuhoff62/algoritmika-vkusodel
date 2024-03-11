@@ -7,7 +7,7 @@ export default function Header() {
   const normal_link = ''
   return (
     <header>
-        <NavLink to='/' className="logo">
+        <NavLink to='algoritmika-vkusodel/' className="logo">
             <img src={logo} width="50px" alt=""/>
             <h2>ВкусоДел</h2>
         </NavLink>
