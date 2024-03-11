@@ -19,7 +19,7 @@ function App() {
         <Route path="/algoritmika-vkusodel/recipes" element={<RecipesPage />} />
         <Route path="algoritmika-vkusodel/recipes/:link" element={<RecipePage />} />
         <Route path="algoritmika-vkusodel/about" element={<AboutPage />} />
-        <Route path="algoritmika-vkusodel/*" element={<NotFound />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
     </>
