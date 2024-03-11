@@ -9,7 +9,7 @@ export default function BigRecipe() {
   }, recipesArray[0]);
 
   return (
-    <NavLink to={`/recipes/${maxLikesRecipe.link}`}>
+    <NavLink to={`algoritmika-vkusodel/recipes/${maxLikesRecipe.link}`}>
       <div className='topRecipe' >
         <img src={maxLikesRecipe.pictureBig} alt="" />
         <h4>{maxLikesRecipe.title}</h4>

@@ -19,7 +19,7 @@ export default function Main() {
             <h2>Популярное сегодня</h2>
             {/* <RecipeList/> */}
             <BigRecipe/>
-            <NavLink to="/recipes"><button>Больше рецептов</button></NavLink>
+            <NavLink to="algoritmika-vkusodel//recipes"><button>Больше рецептов</button></NavLink>
         </div>
         <div className="reviews-cont">
             <h2>Отзывы наших пользователей</h2>
