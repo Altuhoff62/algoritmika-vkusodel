@@ -1,0 +1,369 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 490;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.colors{
+    width:100px;
+    height:100px;
+}
+.colors-box{
+    display: flex;
+    display: none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+ul, ol{
+    list-style: none;
+}
+header{
+    background-color: #85dcbf;
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    display: flex;
+    width: fit-content;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.logo h2{
+    margin-top: 8px;
+}
+.navmenu {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin-right: 50px;
+    margin-top: 24px;
+    font-weight: 500;
+}
+.navmenu li{
+    padding-bottom: -5px;
+    margin-bottom: 10px;
+}
+.current{
+    border-bottom: 3px #000000 solid;
+}
+footer{
+    font-size: 18px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+    background-color: #85dcbf;
+}
+.footer p{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-weight: 500;
+}
+.footer img{ width: 40px;}
+main{
+    background-color: #ffffff;
+    padding: 30px;
+    min-height: calc(100vh - 250px);
+}
+.greeting h2{
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+.greeting p{
+  font-size: 18px;
+  width: 75%;
+}
+.popular{
+    margin-top: 70px;
+    
+}
+.recipeCard{
+    width: 310px;
+    text-align: center;
+    background-color: #85dcbf;
+    border-radius: 5px;
+    box-shadow: 0 0 25px 1px #d2fffd;
+    margin: 10px;
+    height: 310px;
+}
+.recipeCard .card-descr{
+   font-size: 16px;
+   padding-bottom: 0;
+   margin-bottom: 0;
+   height: 40px;
+   
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
+   
+}
+.recipeCard p{
+    text-align: left;
+    margin: 15px;
+    margin-top: 5px;
+}
+.recipeCard img{
+    margin-top: 15px;
+    border-radius: 5px;
+    object-fit:cover;
+}
+
+.weekly-recipes{
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    column-gap: 30px;
+    padding: 50px;
+    padding-right: 0;
+
+}
+.topRecipe{
+    /* width:650px; */
+    background-color: #85dcbf;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 5px #d2f8ff;
+    margin: 10px;
+    margin-left: 0;
+    text-align: center;
+    cursor: pointer;
+}
+.topRecipe img{
+    margin-top: 25px;
+    border-radius: 5px;
+    object-fit:cover;
+    height: 600px;
+}
+
+.topRecipe h4, .topRecipe p{
+    text-align: left;
+    margin-left: 30px;
+}
+.topRecipe h4{
+    margin-top: 10px;
+}
+.topRecipe p{
+    padding-bottom: 15px;
+}
+.popular button{
+    margin-top: 20px;
+    width:160px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    background-color: #85dcbf;
+    margin-bottom: 50px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.reviews{
+    margin-top: 20px;
+}
+.review{
+    background-color: #6e6e0052;
+    margin-bottom: 10px;
+    padding: 10px;
+    padding-left: 5px;
+    border-radius: 10px;
+    max-width: 1200px;
+
+}
+.review .rate{
+    font-size: 18px;
+}
+.review .name{
+    font-weight: 600;
+}
+.recipe-list{
+    display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	column-gap: 30px;
+	row-gap: 30px;
+    margin-left: 50px;
+}
+.search-input{
+    text-align: center;
+    border-radius: 5px 0 0 5px;
+    height: 40px;
+    border: none;
+    background-color: #6e6e0052;
+}
+.search-btn{
+    text-align: center;
+    border-radius: 0 5px 5px 0 ;
+    height: 40px;
+    border: none;
+    background-color: #b15601c0;
+    width: 30px;
+}
+.sort{
+    height: 40px;
+    text-align: center;
+    border-radius: 0 5px 5px 0;
+    border: none;
+    background-color: #6e6e0052;
+    border-left: #69690052 1px solid;
+    
+}
+.type{
+    height:40px;
+    border-radius: 5px 0 0 5px;
+    text-align: center;
+    border: none;
+    background-color: #6e6e0052;
+
+}
+.sort-search{
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    margin-bottom: 35px;
+    margin-left: 80px;
+
+    margin-top: 30px;
+}
+.recipe-page{
+    padding-left: 30px;
+    margin-top: 20px;
+    
+}
+.recipe-page ol{
+    list-style: disc;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.recipe-page ol li{
+    margin-top: 15px;
+}
+#htc{
+    width: 95%;
+}
+.recipe-page img{
+    margin-top: 20px;
+}
+.recipe-page #big_picture{
+    box-shadow: #b3b3b3 0 0 20px 5px ;
+    border-radius: 5px;
+    object-fit:cover;
+}
+.recipe-page p{
+    margin-left: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.like-black{
+    fill: #000;
+}
+.recipe-page h3{
+    margin-top: 20px;
+}
+.recipe-page .descr{
+    margin-top: 20px;
+}
+.recipeCard .like{
+    margin-top: -20px;
+    font-size: 15px;
+}
+.recipeCard .like img{
+    width: 13px;
+    height: 13px;
+}
+.form-sort-type{
+    display: flex;
+}
+.none-text{
+    margin-top: calc((100vh - 250px) * 0.3);
+}
+.p404{
+    text-align: center;
+    margin-top: calc(30vh  - 190px * 0.5);
+}
+.p404 h1{font-size: 150px;}
+.p404 .link{
+    color: rgb(110, 110, 110);
+}
+.chief-card{
+    width: 300px;
+    padding: 15px;
+    background-color: #aff3ff;
+    border-radius: 10px;
+}
+.chief-card img{
+    width: 300px;
+    object-fit:cover;
+    height: 350px;
+    border-radius: 10px;
+}
+.chiefs-info{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.chief-card h4{
+    margin: 10px 0;
+}
+section{
+    background-color: #5e5e5e77;
+    margin-bottom: 10px;
+    padding: 10px;
+    padding-left: 5px;
+    border-radius: 10px;
+    max-width: 1200px;
+}
+.whyWe{
+    margin-top: 30px;
+}
+.whyWe h2{
+margin-bottom: 20px;
+}
+.whyWe section{
+    margin-bottom: 20px;
+}
+
+.contactsField{
+    display: flex;
+    width:  80%;
+    padding: 0 10%;
+    justify-content: space-around;
+}
+.contactLink{
+    text-align: center;
+    font-size: 22px;
+}
+.contacts h2{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.contacts{
+    margin-bottom: 30px;
+}
+.recipe-nf{
+    text-align: center;
+    padding-top: 30vh;
+}
+@media screen and (min-width: 1024px) and (max-width: 1080px) {
+    .chief-card{
+        width: 280px;
+
+    }
+    .chief-card img{
+        width: 280px;
+    }
+  }

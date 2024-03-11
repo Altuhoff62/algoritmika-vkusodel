@@ -1,0 +1,103 @@
+@media screen and (max-width: 374px) {
+    .logo h2 {
+        display: none;
+    }
+    .chiefs-info{
+        flex-wrap: wrap;
+    }
+    .chief-card p{
+        font-size: 16px;
+    }
+    .topRecipe {
+        max-width: 760px;
+        padding: 10px;
+    }
+    #big_picture{
+        width: 100%;
+        margin-top: 10px;
+        height: 300px;
+
+    }
+    .topRecipe h4, .topRecipe p{
+        margin-left: 0;
+    }
+    .topRecipe p{
+        font-size: 15px;
+        padding-bottom: 5px;
+    }
+    .topRecipe  img{
+        width: 100%;
+        margin-top: 0;
+        height: 200px;
+    }
+    .topRecipe h4{
+        font-size: large;
+    }
+    .chief-card{
+        min-width: 200px;
+        width: 100%;
+        margin-left: 10px;
+        margin-bottom: 10px;
+    }
+    .chief-card img{
+        width: 100%;
+        height: 160px;
+        object-position: 50% 35%;
+    }
+    section p{
+        font-size: 17px;
+    }
+    .contactLink img{
+        width: 50px;
+    }
+    .contactLink p{
+        font-size: 10px;
+    }
+    .contactLink{
+        margin-left: 15px;
+    }
+    .contactsField{
+        width: 90%;
+        padding: 0;
+        margin-left: 5px;
+
+    }
+    .review .name{
+        font-size: large;
+    }
+    .review p{
+        font-size: 15px;
+    }
+    .greeting p {
+        font-size: 16px;
+        width: 75%;
+    }
+    .sort-search{
+        display: flex;
+        margin-left: 20px;
+        flex-wrap: wrap;
+	    column-gap: 30px;
+	    row-gap: 30px;
+    }
+    .recipe-list{
+        margin-left: 0;
+    }
+    .recipe-page h3{
+        font-size: 22px;
+    }
+    .recipe-page p, .recipe-page li{
+        font-size: 18px;
+    }
+    .recipe-page img{
+        width: 13px;
+    }
+    .navmenu{
+        font-size: 15px;
+        margin-right: 40px;
+        margin-top: 26px;
+    }
+    .logo {margin-left: 15px; margin-right: 15px;}
+    .p404 h1{
+        font-size: 100px;
+    }
+}

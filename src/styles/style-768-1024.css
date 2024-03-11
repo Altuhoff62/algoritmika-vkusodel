@@ -1,0 +1,31 @@
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .recipe-list{
+         margin-left: 10px;
+    }
+    .sort-search{
+        margin-left: 40px;
+        
+    }
+    .contactsField {
+        width: 100%;
+        padding: 0;
+    }
+    .chief-card{
+        min-width: 200px;
+        margin-left: 10px;
+    }
+    .chief-card img{
+        width: 100%;
+    }
+    .topRecipe  img{
+        width: 100%;
+        margin-top: 10px;
+    }
+    .topRecipe {
+        max-width: 760px;
+        padding: 10px;
+    }
+    section p{
+        font-size: 17px;
+    }
+}
