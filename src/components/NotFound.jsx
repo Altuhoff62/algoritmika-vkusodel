@@ -6,7 +6,7 @@ export default function NotFound() {
     <main>
       <div className="p404">
         <h1>404</h1>
-        <p>Ничего не нашлось. <NavLink to='algoritmika-vkusodel/' className='p404 link'>Вернуться на главную</NavLink></p>
+        <p>Ничего не нашлось. <NavLink to='/' className='p404 link'>Вернуться на главную</NavLink></p>
         
       </div>
     </main>
