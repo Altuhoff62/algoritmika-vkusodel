@@ -12,9 +12,9 @@ export default function Header() {
             <h2>ВкусоДел</h2>
         </NavLink>
         <ul className="navmenu">
-            <li><NavLink to="algoritmika-vkusodel/" className={({isActive})=> isActive ? active_link : normal_link}>Главная</NavLink></li>
-            <li><NavLink to="algoritmika-vkusodel/recipes" className={({isActive})=> isActive ? active_link : normal_link}>Рецепты</NavLink></li>
-            <li><NavLink to="algoritmika-vkusodel/about" className={({isActive})=> isActive ? active_link : normal_link}>О нас</NavLink></li>
+            <li><NavLink to="algoritmika-vkusodel/">Главная</NavLink></li>
+            <li><NavLink to="algoritmika-vkusodel/recipes">Рецепты</NavLink></li>
+            <li><NavLink to="algoritmika-vkusodel/about">О нас</NavLink></li>
         </ul>
     </header>
   )
