@@ -14,7 +14,9 @@ body{
     font-style: normal;
     font-size: 20px;
 }
-
+#like_symb{
+    margin-top: 0;
+}
 .colors{
     width:100px;
     height:100px;
@@ -92,6 +94,10 @@ main{
     margin-top: 70px;
     
 }
+.likes_count{
+    position: absolute;
+    bottom: 10px;
+}
 .recipeCard{
     width: 310px;
     text-align: center;
@@ -99,7 +105,8 @@ main{
     border-radius: 5px;
     box-shadow: 0 0 25px 1px #d2fffd;
     margin: 10px;
-    height: 310px;
+    height: 320px;
+    position: relative;
 }
 .recipeCard .card-descr{
    font-size: 16px;
@@ -358,6 +365,25 @@ margin-bottom: 20px;
     text-align: center;
     padding-top: 30vh;
 }
+
+.likeButton{
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    background-color: #85dcbf;
+    border: none;
+    border-radius: 10px;
+}
+.likeButton:active{
+    background-color: #6db49c;
+}
+.likeButton span{
+    font-size: 20px;
+}
+.likeButton img{
+    margin: 0;
+}
+
 @media screen and (min-width: 1024px) and (max-width: 1080px) {
     .chief-card{
         width: 280px;

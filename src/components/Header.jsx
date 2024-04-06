@@ -3,8 +3,6 @@ import logo from '../content/logo.svg'
 import { NavLink } from 'react-router-dom'
 
 export default function Header() {
-  const active_link = 'current'
-  const normal_link = ''
   return (
     <header>
         <NavLink to='algoritmika-vkusodel/' className="logo">

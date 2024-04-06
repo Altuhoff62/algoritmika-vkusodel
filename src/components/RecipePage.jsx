@@ -1,7 +1,8 @@
 import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import { recipes } from '../arrays_files/recipes';
-import like from '../content/like.svg'
+
+import LikeButton from './LikeButton';
 
 export default function RecipePage() {
   const { link } = useParams();
@@ -24,7 +25,7 @@ export default function RecipePage() {
       <h1>{recipe.title}</h1>
       <img id='big_picture' src={recipe.picture} width={600} height={400} alt="" />
       <p className='descr'>{recipe.description}</p>
-      <p><img src={like} alt="" width={15} height={15}/>&nbsp;{recipe.likes}</p>
+      <LikeButton likes={recipe.likes} id={recipe.id}/>
       <h3>Как приготовить</h3>
       <p id='htc'></p>
     </main>
