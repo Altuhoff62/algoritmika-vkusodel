@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/algoritmika-vkusodel/static/css/main.8d5d68f3.css",
-    "main.js": "/algoritmika-vkusodel/static/js/main.c0d701ca.js",
+    "main.css": "/algoritmika-vkusodel/static/css/main.1d5fd774.css",
+    "main.js": "/algoritmika-vkusodel/static/js/main.82c96abb.js",
     "static/media/orange-fresh.jpeg": "/algoritmika-vkusodel/static/media/orange-fresh.a67c785a4e07b8cbe49d.jpeg",
     "static/media/carbonara.jpg": "/algoritmika-vkusodel/static/media/carbonara.d500ccad47f38f578700.jpg",
     "static/media/curry.jpg": "/algoritmika-vkusodel/static/media/curry.706d2e5a86bd2a8e0ff4.jpg",
@@ -33,15 +33,15 @@
     "static/media/twitter.png": "/algoritmika-vkusodel/static/media/twitter.955e3bacb6ef5719cc7a.png",
     "static/media/insta.png": "/algoritmika-vkusodel/static/media/insta.afb3549828da957a5a0e.png",
     "static/media/vk.png": "/algoritmika-vkusodel/static/media/vk.d113d7353de754547131.png",
-    "static/media/logo.svg": "/algoritmika-vkusodel/static/media/logo.474ef9bd0d9724e8f0c445da1cdc4aeb.svg",
-    "static/media/star.svg": "/algoritmika-vkusodel/static/media/star.aa769de543b27ea0c288dbecf4c4aa64.svg",
+    "static/media/logo.svg": "/algoritmika-vkusodel/static/media/logo.b8eb25ae52092031270ba7338d3c8893.svg",
+    "static/media/star.svg": "/algoritmika-vkusodel/static/media/star.faca5f99bd3c21422fb7cb08c49da239.svg",
     "static/media/like.svg": "/algoritmika-vkusodel/static/media/like.1e6c8e71dca6ed6f54fe71c1f803dddc.svg",
     "index.html": "/algoritmika-vkusodel/index.html",
-    "main.8d5d68f3.css.map": "/algoritmika-vkusodel/static/css/main.8d5d68f3.css.map",
-    "main.c0d701ca.js.map": "/algoritmika-vkusodel/static/js/main.c0d701ca.js.map"
+    "main.1d5fd774.css.map": "/algoritmika-vkusodel/static/css/main.1d5fd774.css.map",
+    "main.82c96abb.js.map": "/algoritmika-vkusodel/static/js/main.82c96abb.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d5d68f3.css",
-    "static/js/main.c0d701ca.js"
+    "static/css/main.1d5fd774.css",
+    "static/js/main.82c96abb.js"
   ]
 }
